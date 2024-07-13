@@ -1,0 +1,41 @@
+<html>
+<head>
+<style>
+body {
+  background-image: url('com.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+   background-size: 100% 100%;
+}
+h1{ font-size: 42px;}
+.h{color:lightblue;}
+p{font-size:20px;
+color: white;
+}
+
+.p{ font-size:30px;
+ color: lightblue;}
+</style>
+</head>
+<body >
+<h1  > <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a  style="text-decoration:none; color:white;"  href ="https://www.google.com/maps/dir//RGHC%2B4PR%D8%8C+%D8%A8%D9%8A%D8%B1%D9%88%D8%AA%E2%80%AD/@33.8278498,35.5918132,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x151f19cb1de15c61:0x2328e0617975dd48!2m2!1d35.5217731!2d33.8278696"  > <b> JK </b> Company</a> </h1>
+<br>
+<br><p class="p">  &nbsp; &nbsp; &#9733; Job applying</p>
+<h2> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <a href= "lastversion.html" style="font-family:Garamond; color:#0ff5ce;"  > Register Now </a> </h2>
+<p class="p">  &nbsp; &nbsp; &#9733; Employee suggestions</p>
+<h2> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <a href= "project3.html" style="font-family:Garamond; color:#0ff5ce;"> Suggest/Complain </a> </h2>
+ 
+
+
+<h3>   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+ <a href="tel:70700310" style="font-family:Lucida Console; color:white;"> Contact us </h3> </a>
+<a href="https://www.facebook.com/profile.php?id=100057543305161&mibextid=ZbWKwL" style="text-decoration:none"><h2 class="h"> About us</h2></a>
+
+<p >
+Our company is a software company design, develop and<br>
+  maintain applications,frameworks or other  software <br>
+ components for businesses or consumers.</p>
+</body>
+</html>

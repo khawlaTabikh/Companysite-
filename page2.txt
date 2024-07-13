@@ -1,0 +1,87 @@
+<html>
+<head>
+<title>
+</title>
+<style>
+h1{ color:#0313fc;
+   font-family: Courier New;}
+
+h4{ color: #9803fc;
+  font-family:Courier New;}
+p{ color:#03459c;
+font-family:Garamond;}
+.all{ 
+  border: 2px solid  #03a5fc;
+  outline: none;}
+ 
+
+
+
+ span{ color:#03459c;
+ font-family:Times New Roman;}
+ body {
+  background-image: url('bb.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+   background-size: 100% 100%;
+}
+</style>
+<script>
+var pass = new Array('ahm@d123','3f@tim@45','3@7li8','nou789r@','58rid@3','m@h3di69');
+var emp  = new Array('123','345','378','789','583','369');
+function check(){ 
+
+for(i=0;i<6;i++)
+{ if(document.getElementById("password").value==pass[i] && document.getElementById("employeeid").value==emp[i])
+  {document.getElementById("suggestion").disabled=false;
+   return true;
+   
+   } }
+   alert("Wrong id or Password!");
+   return false;}
+   
+ function empty(){
+  if( document.getElementById("suggestion").value=="" || document.getElementById("suggestion").value==" " || document.getElementById("suggestion").value==".")
+     {document.getElementById("suggestion").style.borderColor="#fc0349";
+	 return false;}
+	 document.getElementById("suggestion").style.borderColor="#03f4fc";
+  return true;}
+  
+  function Motherfun(){
+  
+    if (check() && empty())
+	{alert("Your message is send.\n  We will try to fix the trouble.\n  Thank you"); 
+	return true;
+	}
+	alert("An error occur in sending this message");
+	return  false;}
+
+	  </script>
+</head>
+<body>
+<center>
+<h1> Do You Have Any Suggestions/Complains?</h1>
+<h4> This message will be send to the company for solving your trouble</h4></center>
+<br>
+<br>
+<br>
+<p> <b>Only JK employees' can send a message!<b></p>
+<br>
+<form name="form1" method="post" action="mailto:khawlatabikh22@gmail.com"  enctype="text/plain"  onSubmit="return Motherfun()">
+<span>
+Password: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<input type="password" id="password" name="password" class="all" onChange="check()"><br><br>
+Employee ID: &nbsp;<input type="text" id="employeeid" name="employeeid" onChange="check()" class="all"></span>
+<br>
+<br>
+<br>
+<textarea disabled id="suggestion" rows="5" cols="100" name="trouble" onChange="empty()" class="all"></textarea>
+<br>
+<br>
+<br>
+<br>
+
+<input type="submit" value="Send" style="color:#eb0592; width:75px; height:25px; background-color:#d2f1fa; border-color:#eb0592" >
+</form>
+</body>
+</html>
